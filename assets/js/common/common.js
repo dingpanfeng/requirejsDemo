@@ -1,0 +1,11 @@
+requirejs.config({
+    baseUrl:'assets/js/units',
+    paths:{
+        jquery:'../lib/jquery.min'
+    },
+    shim:{
+        data:{
+            exports:'b'
+        }
+    }
+});
